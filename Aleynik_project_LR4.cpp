@@ -52,7 +52,9 @@ void addition() {
 }
 
 void subtraction() {
-
+    int result = 0;
+    result = a - b;
+    cout << "A + B = " << result << endl;
 }
 
 
