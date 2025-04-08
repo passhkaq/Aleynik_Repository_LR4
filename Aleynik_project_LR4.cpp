@@ -36,7 +36,7 @@ void enterNumber(int& variable, const string& prompt, const int& min, const int&
 }
 
 void enterA() {
-
+    enterNumber(a, "Enter A: ", -99999, 99999);
 }
 
 void enterB() {
