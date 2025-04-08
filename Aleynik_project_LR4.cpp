@@ -40,7 +40,7 @@ void enterA() {
 }
 
 void enterB() {
-
+    enterNumber(b, "Enter B: ", -99999, 99999);
 }
 
 void addition() {
