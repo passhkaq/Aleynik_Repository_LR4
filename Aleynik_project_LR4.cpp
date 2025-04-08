@@ -6,6 +6,8 @@
 
 using namespace std;
 
+int a = 0, b = 0;
+
 // entr check
 bool userInput(string input, const int& min, const int& max) {
     if (input.empty()) return false;
@@ -44,7 +46,9 @@ void enterB() {
 }
 
 void addition() {
-
+    int result = 0;
+    result = a + b;
+    cout << "A + B = " << result << endl;
 }
 
 void subtraction() {
